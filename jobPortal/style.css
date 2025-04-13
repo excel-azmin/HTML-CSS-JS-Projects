@@ -39,3 +39,60 @@ h3 {
   max-width: 1200px;
   margin: auto;
 }
+
+#w-btn {
+  margin-left: 40px;
+  background: #ffffff;
+  color: #1f4a40;
+  padding: 9px 20px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+/* Header CSS */
+
+header {
+  background-color: #1f4a40;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+#navbar .logo {
+  width: 120px;
+}
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+#menu li a {
+  color: #ffffff;
+  text-emphasis: none;
+  margin-left: 40px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#bar {
+  color: #ffffff;
+  display: none;
+}
+
+@media (max-width: 699px) {
+  #menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+}
