@@ -6,3 +6,12 @@
   --font-display: "Poppins", "sans-serif";
   --font-body: "Poppins", "sans-serif";
 }
+
+@layer base {
+  body {
+    @apply font-body;
+  }
+  h1 {
+    @apply font-display font-medium text-gray-800;
+  }
+}
